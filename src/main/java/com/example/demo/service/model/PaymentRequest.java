@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class PaymentRequest {
-    private Donor donor;
-    private PaymentType paymentType;
-    private String paymentId;
-    private long amount;
+  private Donor donor;
+  private PaymentType paymentType;
+  private String paymentId;
+  private long amount;
 }
