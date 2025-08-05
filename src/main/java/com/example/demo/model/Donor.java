@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @Getter
 public class Donor {
   private int id;
-  private String firstName;
-  private String lastName;
+  private String fullname;
   private String email;
 }
